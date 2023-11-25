@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Text Editor",
+    "version": "1.0",
+    "description": "Text Editor for Browsers",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "vite.svg"
+    },
+    "permissions": ["bookmarks"]
+  }
