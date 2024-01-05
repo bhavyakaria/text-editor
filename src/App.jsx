@@ -10,12 +10,12 @@ function App() {
       <CssBaseline />
       <Grid 
         container 
-        sx={{ minHeight: "100vh", mt:10, alignItems: "center" }} 
+        sx={{ mt:10, alignItems: "center" }} 
         flexDirection="column">
         <Grid item>
           <Typography variant='h4' >Lexical Editor App</Typography>
         </Grid>
-        <Grid item xs={9} sx={{width: "100%", mt: 5 }}>
+        <Grid item xs={9} sx={{width: "100%", mt: 5, borderRadius: "15px", overflow: "hidden" }}>
           <EditorWrapper />
         </Grid>
       </Grid>

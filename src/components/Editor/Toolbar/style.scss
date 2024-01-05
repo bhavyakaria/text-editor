@@ -1,0 +1,30 @@
+.toolbar {
+  background-color: white;
+  width: '100%';
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  height: auto;
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    align-self: center;
+
+    .icon {
+      height: 18px;
+      width: 18px;
+      align-self: center;
+      margin: auto;
+      opacity: .6;
+    }
+  }
+
+  .icon-container:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+
+}

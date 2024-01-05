@@ -1,14 +1,11 @@
-import { FORMAT_TEXT_COMMAND } from "lexical";
 import { eventTypes } from "./toolbarIconsList";
-import { useLexicalComposerContext } from "@lexical/react/LexicalComposerContext";
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useLexicalComposerContext } from "@lexical/react/LexicalComposerContext";
 import {
   FORMAT_TEXT_COMMAND,
   $isRangeSelection
 } from "lexical";
 import { $getNearestNodeOfType } from "@lexical/utils";
-import { useCallback } from "react";
 import {
   $isListNode,
   ListNode,
@@ -22,7 +19,6 @@ import {
   $wrapNodes,
   $isAtNodeEnd,
 } from "@lexical/selection";
-import { eventTypes } from "./toolbarIconsList";
 
 const LowPriority = 1;
 

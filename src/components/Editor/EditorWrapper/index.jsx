@@ -56,7 +56,7 @@ function EditorWrapper() {
   return (
     <LexicalComposer initialConfig={initialConfig}>
       <Toolbar />
-      <Box sx={ {position: "relative", background: "white", mt: 1 }}>
+      <Box sx={ {position: "relative", background: "white" }}>
         <RichTextPlugin
           contentEditable={<MuiContentEditable />}
           placeholder={<Box sx={placeHolderSx}>Enter some text...</Box>}
