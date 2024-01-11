@@ -1,0 +1,31 @@
+.toolbar {
+  background-color: white;
+  width: '100%';
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  height: auto;
+
+  .icon {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+      align-self: center;
+    }
+  }
+
+  .icon:hover {
+    background-color: #eeeeee;
+    border-radius: 5px;
+  }
+
+  .separation {
+    width: 2px;
+    background-color: #eeeeee;
+    margin: 0 4px;
+  }
+}

@@ -9,7 +9,7 @@ import {useLexicalComposerContext} from '@lexical/react/LexicalComposerContext';
 import LexicalErrorBoundary from '@lexical/react/LexicalErrorBoundary';
 import { MuiContentEditable, placeHolderSx } from './styles';
 import { Box } from '@mui/material';
-import Toolbar from '../Toolbar';
+import NewToolbar from '../NewToolbar';
 import lexicalEditorTheme from '../../../theme/lexicalEditorTheme';
 
 // When the editor changes, you can get notified via the
@@ -55,7 +55,7 @@ function EditorWrapper() {
 
   return (
     <LexicalComposer initialConfig={initialConfig}>
-      <Toolbar />
+      <NewToolbar />
       <Box sx={ {position: "relative", background: "white" }}>
         <RichTextPlugin
           contentEditable={<MuiContentEditable />}
