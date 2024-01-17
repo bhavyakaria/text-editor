@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 4px;
     cursor: pointer;
 
     svg {
@@ -21,6 +22,12 @@
   .icon:hover {
     background-color: #eeeeee;
     border-radius: 5px;
+
+    svg {
+      path {
+        fill: #212529;
+      }
+    }
   }
 
   .separation {
